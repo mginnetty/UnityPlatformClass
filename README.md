@@ -1,3 +1,3 @@
 # UnityPlatformClass
 Unity Platform Class
-A Simple Mario like platormer game
+A Simple Mario like platformer game
