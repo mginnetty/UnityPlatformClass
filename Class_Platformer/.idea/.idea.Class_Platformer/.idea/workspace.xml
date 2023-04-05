@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3960329-2f4d-40cc-9498-d5f1858ddf9c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Class Platformer/UserSettings/EditorUserSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Class Platformer/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Class_Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Class_Platformer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player Animations/player_3c_1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player Animations/player_3c_1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Code/Player Code/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Player Code/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1680641354657</updated>
-      <workItem from="1680641361251" duration="4943000" />
+      <workItem from="1680641361251" duration="7625000" />
     </task>
     <servers />
   </component>
