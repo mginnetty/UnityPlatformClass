@@ -215,6 +215,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1237852616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1237852617}
+  m_Layer: 0
+  m_Name: Ground Check Position
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1237852617
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237852616}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.05499983, y: -0.59299994, z: -0.2587163}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1639591162}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1639591162 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6322673902547696109, guid: 304cece8a40c4da4a9094bca29eb3fb6, type: 3}
+  m_PrefabInstance: {fileID: 8644094629717010630}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1765692437
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,7 +262,7 @@ GameObject:
   - component: {fileID: 1765692440}
   - component: {fileID: 1765692439}
   - component: {fileID: 1765692438}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,8 +437,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8980537703190308460, guid: 304cece8a40c4da4a9094bca29eb3fb6, type: 3}
+      propertyPath: groundLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980537703190308460, guid: 304cece8a40c4da4a9094bca29eb3fb6, type: 3}
+      propertyPath: groundCheckPosition
+      value: 
+      objectReference: {fileID: 1237852617}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6322673902547696109, guid: 304cece8a40c4da4a9094bca29eb3fb6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1237852617}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 304cece8a40c4da4a9094bca29eb3fb6, type: 3}
