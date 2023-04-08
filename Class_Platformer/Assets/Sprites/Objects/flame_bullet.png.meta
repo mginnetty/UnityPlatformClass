@@ -134,10 +134,10 @@ TextureImporter:
       name: flame_bullet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 31.25
-        height: 32
+        x: 2
+        y: 2
+        width: 28
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,10 +155,10 @@ TextureImporter:
       name: flame_bullet_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 0
-        width: 31.25
-        height: 32
+        x: 37
+        y: 6
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,10 +176,10 @@ TextureImporter:
       name: flame_bullet_2
       rect:
         serializedVersion: 2
-        x: 62
-        y: 0
-        width: 31.25
-        height: 32
+        x: 68
+        y: 6
+        width: 20
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,13 +194,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: flame_bullet_3
+      name: flame_bullet_5
       rect:
         serializedVersion: 2
-        x: 93
-        y: 0
-        width: 31.25
-        height: 32
+        x: 98
+        y: 5
+        width: 22
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62305410000000000800000000000000
-      internalID: 21300006
+      spriteID: d6d705e8a19d1eb46b844981d78d7d02
+      internalID: -403515600
       vertices: []
       indices: 
       edges: []
@@ -217,7 +217,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c315dd4c648c2c546b512c928e6721bf
     internalID: 0
     vertices: []
     indices: 
@@ -229,6 +229,8 @@ TextureImporter:
       flame_bullet_1: 21300002
       flame_bullet_2: 21300004
       flame_bullet_3: 21300006
+      flame_bullet_4: -364776026
+      flame_bullet_5: -403515600
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

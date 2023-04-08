@@ -581,6 +581,11 @@ Transform:
   m_Father: {fileID: 1639591162}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1296155137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7771913401547496968, guid: 304cece8a40c4da4a9094bca29eb3fb6, type: 3}
+  m_PrefabInstance: {fileID: 8644094629717010630}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1459492879
 GameObject:
   m_ObjectHideFlags: 0
@@ -617,6 +622,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6322673902547696109, guid: 304cece8a40c4da4a9094bca29eb3fb6, type: 3}
   m_PrefabInstance: {fileID: 8644094629717010630}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1639591168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1296155137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c33de5c620dfd724890e806d7b431901, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fireBullet: {fileID: 2643132272718549158, guid: 94dc522e2c1dd5e45839c034dca57df9, type: 3}
 --- !u!1 &1765692437
 GameObject:
   m_ObjectHideFlags: 0
@@ -856,6 +874,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1109018848921410041, guid: 4700e717d4d760943a7e629dc85d822f, type: 3}
+      propertyPath: m_TagString
+      value: Snail
+      objectReference: {fileID: 0}
     - target: {fileID: 3269022249301356459, guid: 4700e717d4d760943a7e629dc85d822f, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -995,5 +1017,8 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6322673902547696109, guid: 304cece8a40c4da4a9094bca29eb3fb6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1237852617}
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7771913401547496968, guid: 304cece8a40c4da4a9094bca29eb3fb6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1639591168}
   m_SourcePrefab: {fileID: 100100000, guid: 304cece8a40c4da4a9094bca29eb3fb6, type: 3}
