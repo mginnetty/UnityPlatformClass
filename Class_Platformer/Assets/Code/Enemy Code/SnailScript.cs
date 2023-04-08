@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class SnailScript : MonoBehaviour
@@ -67,7 +68,13 @@ public class SnailScript : MonoBehaviour
                       myBody.velocity = new Vector2(0,0);
                       anim.Play("Stunned");
                       stunned = true;
-                
+
+                      if (tag == MyTags.BEETLE_TAG) {
+                          anim.Play("Stunned");
+                          StartCoroutine(Dead(0.5f));
+
+                      }
+                      
                  } 
             } 
         }
@@ -77,7 +84,10 @@ public class SnailScript : MonoBehaviour
                     if (!stunned){
                         // Apply Damage to Player
                     } else {
-                       myBody.velocity = new Vector2(15f,myBody.velocity.y);
+                        if (tag != MyTags.BEETLE_TAG) {
+                            myBody.velocity = new Vector2(15f,myBody.velocity.y);
+                            StartCoroutine(Dead(3f));
+                        }
                     }   
                 }
             }
@@ -87,7 +97,10 @@ public class SnailScript : MonoBehaviour
                     if (!stunned) {
                         // Apply Player Damage
                     } else {
-                        myBody.velocity = new Vector2(-15f,myBody.velocity.y);
+                        if (tag != MyTags.BEETLE_TAG) {
+                            myBody.velocity = new Vector2(-15f,myBody.velocity.y); 
+                            StartCoroutine(Dead(3f));
+                        }
                     }   
                 }
                 
@@ -117,6 +130,11 @@ public class SnailScript : MonoBehaviour
         transform.localScale = tempscale;
     }//ChangeDirection
 
+    IEnumerator Dead(float timer) {
+        yield return new WaitForSeconds(timer);
+        gameObject.SetActive(false);
+        
+    }
     
 } //  SnailScript
 
