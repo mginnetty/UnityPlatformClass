@@ -37,6 +37,7 @@ public class BirdScript : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         MoveTheBird();
+        DropTheEgg();
     }
 
     void MoveTheBird() {
@@ -59,6 +60,36 @@ public class BirdScript : MonoBehaviour {
         Vector3 tempScale = transform.localScale;
         tempScale.x = direction;
         transform.localScale = tempScale;
+    }
+
+
+    void DropTheEgg() {
+        if (!attacked) {
+            if (Physics2D.Raycast(transform.position, Vector2.down, Mathf.Infinity,playerLayer)) {
+                Instantiate(birdEgg, new Vector3(transform.position.x, transform.position.y - 1f, transform.position.z),
+                    Quaternion.identity);
+                attacked = true;
+                anim.Play("BirdFly");
+                
+            }
+        }
+    }
+
+    IEnumerator BirdDead() {
+        yield return new WaitForSeconds(3f);
+        gameObject.SetActive(false);
+    }
+
+    void OnTriggerEnter2D(Collider2D target) {
+        if (target.tag == MyTags.BULLET_TAG) {
+            anim.Play("BirdDead");
+
+            GetComponent<BoxCollider2D>().isTrigger = true;
+            myBody.bodyType = RigidbodyType2D.Dynamic;
+            canMove = false;
+            StartCoroutine(BirdDead());
+
+        }
     }
     
     
