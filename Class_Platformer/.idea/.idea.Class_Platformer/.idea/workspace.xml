@@ -5,30 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3960329-2f4d-40cc-9498-d5f1858ddf9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Spider Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Spider Animations/SpiderClimb.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Spider Animations/SpiderClimb.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Spider Animations/SpiderDead.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Spider Animations/SpiderDead.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Spider Animations/spider_0.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Spider Animations/spider_0.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Enemy Code/EggScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Enemy Code/EggScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Enemy Code/SpiderScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Enemy Code/SpiderScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy Prefabs/Bird Egg.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy Prefabs/Bird Egg.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy Prefabs/Bird.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy Prefabs/Bird.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy Prefabs/Spider.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy Prefabs/Spider.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogIdleLeft.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogIdleLeft.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogIdleRight.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogIdleRight.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogJumpLeft.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogJumpLeft.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogJumpRight.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogJumpRight.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/frog_1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/frog_1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/frog_1.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/frog_1.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Enemy Code/FrogScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Enemy Code/FrogScript.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Class_Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Class_Platformer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Enemy Code/BirdScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Enemy Code/BirdScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Helper/MyTags.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Helper/MyTags.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Code/Player Code/FireBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Code/Player Code/FireBullet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enemies/egg.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enemies/egg.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enemies/spider.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enemies/spider.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enemies/frog.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enemies/frog.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +32,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Code/Enemy Code/BirdScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Enemy Code/FrogScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Enemy Code/SnailScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Enemy Code/SpiderScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Helper/MyTags.cs" root0="FORCE_HIGHLIGHTING" />
@@ -109,7 +105,7 @@
       <workItem from="1680880395421" duration="4624000" />
       <workItem from="1680919044777" duration="2401000" />
       <workItem from="1680981898388" duration="3633000" />
-      <workItem from="1680998294554" duration="9060000" />
+      <workItem from="1680998294554" duration="15641000" />
     </task>
     <servers />
   </component>
