@@ -145,7 +145,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -172,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22305410000000000800000000000000
-      internalID: 21300002
+      spriteID: 2c8c0941c4aa174458f7e427af283d9b
+      internalID: 1332945957
       vertices: []
       indices: 
       edges: []
@@ -193,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42305410000000000800000000000000
-      internalID: 21300004
+      spriteID: 8b775b5655dfa934c8e79721bd460312
+      internalID: -402441670
       vertices: []
       indices: 
       edges: []
@@ -214,8 +214,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62305410000000000800000000000000
-      internalID: 21300006
+      spriteID: e9ed373c23bad6045bc13a284bc1a96f
+      internalID: -1120355607
       vertices: []
       indices: 
       edges: []
@@ -235,8 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82305410000000000800000000000000
-      internalID: 21300008
+      spriteID: e09156bc20769114da856767c13304fb
+      internalID: -290181271
       vertices: []
       indices: 
       edges: []
@@ -256,8 +256,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2305410000000000800000000000000
-      internalID: 21300010
+      spriteID: acafb288132cca74fafaac415ff5b034
+      internalID: -1507518611
       vertices: []
       indices: 
       edges: []
@@ -265,7 +265,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 969bef8f71bb3094aacaae222be1ee1c
     internalID: 0
     vertices: []
     indices: 
@@ -274,11 +274,11 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       bonusblock_0: 21300000
-      bonusblock_1: 21300002
-      bonusblock_2: 21300004
-      bonusblock_3: 21300006
-      bonusblock_4: 21300008
-      bonusblock_5: 21300010
+      bonusblock_1: 1332945957
+      bonusblock_2: -402441670
+      bonusblock_3: -1120355607
+      bonusblock_4: -290181271
+      bonusblock_5: -1507518611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

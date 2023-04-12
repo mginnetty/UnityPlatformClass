@@ -127,7 +127,7 @@ TextureImporter:
         width: 196
         height: 134
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 1, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -135,6 +135,48 @@ TextureImporter:
       bones: []
       spriteID: cd72017abf4f24e49b08631387859999
       internalID: -161109294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree 1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 203
+        width: 242
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291612c6b9010664daae8e64e2ca5622
+      internalID: -1286504706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 68
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 717efeba19afab14db3bad7d486ca0f5
+      internalID: -893860345
       vertices: []
       indices: 
       edges: []
@@ -151,6 +193,8 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Tileset_0_0: -161109294
+      Tree 1: -1286504706
+      stone: -893860345
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

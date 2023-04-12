@@ -134,9 +134,9 @@ TextureImporter:
       name: coin_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 50.25
+        width: 48
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -155,9 +155,9 @@ TextureImporter:
       name: coin_1
       rect:
         serializedVersion: 2
-        x: 50
+        x: 56
         y: 0
-        width: 50.25
+        width: 38
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -176,9 +176,9 @@ TextureImporter:
       name: coin_2
       rect:
         serializedVersion: 2
-        x: 100
+        x: 119
         y: 0
-        width: 50.25
+        width: 10
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -197,9 +197,9 @@ TextureImporter:
       name: coin_3
       rect:
         serializedVersion: 2
-        x: 150
+        x: 156
         y: 0
-        width: 50.25
+        width: 38
         height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -217,7 +217,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 04618642f7191e44d97bd2079d551bbf
     internalID: 0
     vertices: []
     indices: 

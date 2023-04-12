@@ -5,25 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3960329-2f4d-40cc-9498-d5f1858ddf9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogIdleLeft.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogIdleLeft.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogIdleRight.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogIdleRight.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogJumpLeft.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogJumpLeft.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogJumpRight.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/FrogJumpRight.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/frog_1.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Frog Animations/frog_1.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/frog_1.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/frog_1.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Enemy Code/FrogScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Code/Enemy Code/FrogScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Block Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Block Animations/BlockIdle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Block Animations/BlockIdle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Block Animations/BlockShine.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Block Animations/BlockShine.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Block Animations/bonusblock_0 (3).controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Block Animations/bonusblock_0 (3).controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Bg Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Bg Scripts/ScaleBackground.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Code/Bg Scripts/ScaleBackground.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Collectable Items.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Collectable Items/coin_0.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Collectable Items/coin_0.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Class_Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Class_Platformer/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Enemies/frog.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Enemies/frog.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Block/bonusblock.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Block/bonusblock.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Items/coin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Items/coin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tileset/Tileset_0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/Tileset_0.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tileset/Tileset_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/Tileset_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Tileset/Tileset_2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Tileset/Tileset_2.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +32,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Bg Scripts/ScaleBackground.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Code/Camera Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Enemy Code/BirdScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Enemy Code/FrogScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Code/Enemy Code/SnailScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -105,7 +108,7 @@
       <workItem from="1680880395421" duration="4624000" />
       <workItem from="1680919044777" duration="2401000" />
       <workItem from="1680981898388" duration="3633000" />
-      <workItem from="1680998294554" duration="15641000" />
+      <workItem from="1680998294554" duration="19437000" />
     </task>
     <servers />
   </component>
