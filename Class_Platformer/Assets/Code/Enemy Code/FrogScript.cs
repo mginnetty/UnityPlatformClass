@@ -8,20 +8,28 @@ public class FrogScript : MonoBehaviour {
     private bool jumpLeft = true;
     private int timesJumped;
     private string coroutine_Name = "FrogJump";
+    private GameObject player;
+
+    public LayerMask playerLayer;
     
 
 
     void Awake() {
         anim = GetComponent<Animator>();
         
+        
     }
 
-        void Start() {
-            StartCoroutine(coroutine_Name);
-            
-            
+    void Start() {
+        StartCoroutine(coroutine_Name);
+        player = GameObject.FindGameObjectWithTag(MyTags.PLAYER_TAG);
+    }
+
+    void Update() {
+        if (Physics2D.OverlapCircle(transform.position, 0.5f, playerLayer)) {
+            player.GetComponent<PlayerDamage>().DealDamage();
         }
-    
+    }    
 
     
     void LateUpdate() {

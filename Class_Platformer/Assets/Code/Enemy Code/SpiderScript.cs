@@ -55,7 +55,9 @@ public class SpiderScript : MonoBehaviour {
             myBody.bodyType = RigidbodyType2D.Dynamic;
             StartCoroutine(SpiderDead());
             StopCoroutine(ChangeMovement());
-
+        }
+        if(target.tag==MyTags.PLAYER_TAG) {
+            target.GetComponent<PlayerDamage>().DealDamage();
         }
     }
     
